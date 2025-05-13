@@ -28,7 +28,8 @@
         "tailwindcss": "^3.4.9",
         "three": "^0.160.0",
         "three-bvh-csg": "^0.0.16",
-        "three-custom-shader-material": "^5.4.0"
+        "three-custom-shader-material": "^5.4.0",
+        "three-mesh-bvh": "^0.6.8"
     },
     "engines": {
         "node": ">=18.0.0"
