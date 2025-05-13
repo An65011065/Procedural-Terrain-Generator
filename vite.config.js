@@ -16,6 +16,12 @@ export default defineConfig({
         outDir: "../dist", // Output in the dist/ folder
         emptyOutDir: true, // Empty the folder first
         sourcemap: true, // Add sourcemap
+        rollupOptions: {
+            external: ["@rollup/rollup-linux-x64-gnu"],
+            output: {
+                manualChunks: undefined,
+            },
+        },
     },
     plugins: [glsl(), react()],
     esbuild: {
